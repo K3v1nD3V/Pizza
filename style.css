@@ -1,0 +1,105 @@
+
+/* Header */
+
+.navbar-brand{
+    width: 70px;
+}
+img{
+    width: 100%;
+}
+.navbar-brand:hover{
+    color: #0a712b;
+}
+
+.navbar-nav{
+    gap: 30px;
+}
+.nav-item a{
+    transition: transform .2s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav-item a:hover{
+    transform: scale(1.1);
+}
+
+/* card-grup */
+
+.card-group-container-title{
+    margin-bottom: 20px;
+}
+.card-group-container-title h2{
+    overflow: hidden;
+}
+.card-group-container-title h2::after{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    vertical-align: middle;
+    width: 100%;
+    margin-inline: 20px -100%;
+    background-color: black;
+}
+
+.card-group{
+    gap: 15px;
+}
+
+.card{
+    overflow: hidden;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+.card img{
+    transition: transform .2s ease-in;
+}
+.card:hover > img{
+    transform: scale(1.1);
+}
+.card .price-container{
+    text-align: center;
+}
+.striked{
+    color: gray;
+    text-decoration:line-through;
+}
+.card button{
+    width: 100px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: green;
+    border: none;
+}
+.card button:hover{
+    background-color: #007000;
+}
+
+/* table */
+.table-container{
+    width: 800px;
+    border: dashed;
+    border-radius: 20px;
+    padding: 20px;
+}
+.table-container h2{
+    font-weight: bold;
+}
+table{
+    font-size: 18px;
+}
+table tr{
+    padding: 50px;
+}
+table td{
+    text-align: end;
+}
+
+footer{
+    justify-content: center;
+}
